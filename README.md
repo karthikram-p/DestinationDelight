@@ -56,7 +56,7 @@ Before running the project locally, make sure you have the following tools insta
 
 7. Access the project in your browser:
     ```
-    http://localhost/destination-delight
+    http://localhost/DestinationDelight
     ```
 
 ### Email Setup
@@ -75,9 +75,8 @@ Before running the project locally, make sure you have the following tools insta
 
 ```bash
 .
-├── assets/               # Static files (CSS, images, JS)
+├── css/                  # Static files (CSS)
 ├── includes/             # Reusable PHP scripts (header, footer, database connection)
 ├── pages/                # Web pages (home, booking, hotels, about, contact)
-├── database.sql          # Database schema for MySQL
 ├── config.php            # Database configuration
 └── README.md             # Project documentation
