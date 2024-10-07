@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['reservation_id'])) {
                 $mail->Host = 'smtp.gmail.com';
                 $mail->SMTPAuth = true;
                 $mail->Username = 'projectwebdev2024@gmail.com';
-                $mail->Password = 'kdbmzvmhyywdywii'; // Replace with your Gmail App Password
+                $mail->Password = 'YOUR_GMAIL_APP_PASSWORD'; // Replace with your Gmail App Password
                 $mail->SMTPSecure = 'tls';
                 $mail->Port = 587;
 
